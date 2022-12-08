@@ -5,13 +5,19 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Reverse a String", "1. Reverse a String\1. Reverse a String.csproj", "{0C305F98-9797-4BBD-8E74-2DE8E09F24CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Stack Sum", "2. Stack Sum\2. Stack Sum.csproj", "{B8CC7792-B637-4D4A-9AF6-1EC10397362B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Stack Sum", "2. Stack Sum\2. Stack Sum.csproj", "{B8CC7792-B637-4D4A-9AF6-1EC10397362B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Simple Calculator", "3. Simple Calculator\3. Simple Calculator.csproj", "{0CEBFDC0-F8F7-4A48-A85E-9AD421947476}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Simple Calculator", "3. Simple Calculator\3. Simple Calculator.csproj", "{0CEBFDC0-F8F7-4A48-A85E-9AD421947476}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Matching Brackets", "4. Matching Brackets\4. Matching Brackets.csproj", "{168A61FD-6811-422B-9C58-0A98889EB38A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Matching Brackets", "4. Matching Brackets\4. Matching Brackets.csproj", "{168A61FD-6811-422B-9C58-0A98889EB38A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Print Even Numbers", "5. Print Even Numbers\5. Print Even Numbers.csproj", "{AF2E6941-2E06-4EDE-9864-72F39356B7CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Print Even Numbers", "5. Print Even Numbers\5. Print Even Numbers.csproj", "{AF2E6941-2E06-4EDE-9864-72F39356B7CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Supermarket", "6. Supermarket\6. Supermarket.csproj", "{F3E5AF2E-4D6B-4C6D-B1A2-5B2B5382A8CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Hot Potato", "7. Hot Potato\7. Hot Potato.csproj", "{B12187AE-B0EB-4530-ACAE-85E051F27504}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Traffic Jam", "8. Traffic Jam\8. Traffic Jam.csproj", "{48C89E6E-1B2D-4186-8509-1B10D5323AA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{AF2E6941-2E06-4EDE-9864-72F39356B7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF2E6941-2E06-4EDE-9864-72F39356B7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF2E6941-2E06-4EDE-9864-72F39356B7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E5AF2E-4D6B-4C6D-B1A2-5B2B5382A8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E5AF2E-4D6B-4C6D-B1A2-5B2B5382A8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E5AF2E-4D6B-4C6D-B1A2-5B2B5382A8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E5AF2E-4D6B-4C6D-B1A2-5B2B5382A8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B12187AE-B0EB-4530-ACAE-85E051F27504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B12187AE-B0EB-4530-ACAE-85E051F27504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B12187AE-B0EB-4530-ACAE-85E051F27504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B12187AE-B0EB-4530-ACAE-85E051F27504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C89E6E-1B2D-4186-8509-1B10D5323AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C89E6E-1B2D-4186-8509-1B10D5323AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C89E6E-1B2D-4186-8509-1B10D5323AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C89E6E-1B2D-4186-8509-1B10D5323AA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

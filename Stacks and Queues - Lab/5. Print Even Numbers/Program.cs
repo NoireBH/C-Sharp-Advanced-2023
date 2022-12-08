@@ -21,7 +21,7 @@ namespace _5._Print_Even_Numbers
                 }
             }
 
-            Console.WriteLine(String.Join(",",evenNumbers));
+            Console.WriteLine(String.Join(", ",evenNumbers));
 
 
         }
