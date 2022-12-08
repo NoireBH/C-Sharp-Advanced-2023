@@ -19,12 +19,17 @@ namespace _04._Fast_Food
             int biggestOrder = orderQuantity.Max();
             Console.WriteLine(biggestOrder);
 
-            for (int i = 0; i < queue.Count; i++)
+            for (int i = 1; i <= orderQuantity.Length; i++)
             {          
-                if (quantityOfFood >= queue[i])
+                if (quantityOfFood >= queue.Peek())
                 {
-                    quantityOfFood -= queue[i];
+                    quantityOfFood -= queue.Peek();
                     queue.Dequeue();
+                }
+
+                else
+                {
+                    break;
                 }
             }
 
@@ -35,9 +40,8 @@ namespace _04._Fast_Food
 
             else
             {
-                Console.WriteLine(String.Join(", ", queue));
-            }
-            
+                Console.WriteLine("Orders left: " + String.Join(" ", queue));
+            }         
         }
     }
 }
