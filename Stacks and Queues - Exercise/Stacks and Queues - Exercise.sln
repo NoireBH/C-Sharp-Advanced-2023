@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Basic Stack Operations", "01. Basic Stack Operations\01. Basic Stack Operations.csproj", "{D5D0315D-3138-42F0-BC0E-0D8AA5BE3500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Basic Queue Operations", "02. Basic Queue Operations\02. Basic Queue Operations.csproj", "{8FD2F17E-D22C-480B-906D-3424A0DC69B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Maximum and Minimum Element", "03. Maximum and Minimum Element\03. Maximum and Minimum Element.csproj", "{05FB4593-44CE-45AE-A16B-44722336D3D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Fast Food", "04. Fast Food\04. Fast Food.csproj", "{2FB72CA6-E5B1-42CB-BA09-158C567C218A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5D0315D-3138-42F0-BC0E-0D8AA5BE3500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D0315D-3138-42F0-BC0E-0D8AA5BE3500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D0315D-3138-42F0-BC0E-0D8AA5BE3500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D0315D-3138-42F0-BC0E-0D8AA5BE3500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD2F17E-D22C-480B-906D-3424A0DC69B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD2F17E-D22C-480B-906D-3424A0DC69B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD2F17E-D22C-480B-906D-3424A0DC69B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD2F17E-D22C-480B-906D-3424A0DC69B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FB4593-44CE-45AE-A16B-44722336D3D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FB4593-44CE-45AE-A16B-44722336D3D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FB4593-44CE-45AE-A16B-44722336D3D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FB4593-44CE-45AE-A16B-44722336D3D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB72CA6-E5B1-42CB-BA09-158C567C218A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB72CA6-E5B1-42CB-BA09-158C567C218A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB72CA6-E5B1-42CB-BA09-158C567C218A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB72CA6-E5B1-42CB-BA09-158C567C218A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9BF6929-B0B6-4A0C-AB1F-9A0AA4940BC2}
+	EndGlobalSection
+EndGlobal
