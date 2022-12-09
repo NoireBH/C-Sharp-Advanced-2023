@@ -46,6 +46,7 @@ namespace _08._Balanced_Parenthesis
                     else
                     {
                         isBalanced = false;
+                        break;
                     }
 
                 }
