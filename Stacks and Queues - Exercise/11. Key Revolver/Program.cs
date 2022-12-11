@@ -30,7 +30,6 @@ namespace _11._Key_Revolver
 
             while (locks.Count > 0)
             {
-                
 
                 if (bullets.Count == 0)
                 {
@@ -62,15 +61,11 @@ namespace _11._Key_Revolver
                     {
                         Console.WriteLine("Reloading!");
                     }
-                    
-
 
                 }
             }
             
             Console.WriteLine($"{bullets.Count} bullets left. Earned ${inteligenceValue - moneyDeducted}");
-
-
         }
     }
 }
