@@ -37,9 +37,6 @@ namespace _4._Symbol_in_Matrix
                 }
             }
                 Console.WriteLine($"{characterNeeded} does not occur in the matrix ");
-            
-
-
         }
     }
 }
