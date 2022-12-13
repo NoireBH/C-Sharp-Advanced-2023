@@ -23,30 +23,21 @@ namespace _4._Symbol_in_Matrix
             }
 
             char characterNeeded = char.Parse(Console.ReadLine());
-            bool foundMatch = false;
 
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
-                if (foundMatch)
-                {
-                    break;
-                }
-
+ 
                 for (int col = 0; col < matrix.GetLength(1); col++)
                 {
                     if (matrix[row,col] == characterNeeded)
                     {
                         Console.WriteLine($"({row}, {col})");
-                        foundMatch = true;
-                        break;
+                        return;
                     }
                 }
             }
-
-            if (!foundMatch)
-            {
                 Console.WriteLine($"{characterNeeded} does not occur in the matrix ");
-            }
+            
 
 
         }
