@@ -25,8 +25,6 @@ namespace _7._Pascal_Triangle
             {
                 Console.WriteLine(String.Join(" ", triangle[i]));
             }
-
-           
         }
     }
 }
