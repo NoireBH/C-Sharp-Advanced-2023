@@ -27,6 +27,7 @@ namespace _07._The_V_Logger
                         VLoggerDatabase[nameOfVlogger].Add("following", new HashSet<string>());
                     }
                 }
+
                 else if (command == "followed")
                 {
                     string member = parts[2];
@@ -36,6 +37,8 @@ namespace _07._The_V_Logger
                         VLoggerDatabase[nameOfVlogger]["following"].Add(member);
                         VLoggerDatabase[member]["followers"].Add(nameOfVlogger);
                     }
+
+
                 }               
             }
 
@@ -57,8 +60,6 @@ namespace _07._The_V_Logger
 
                 number++;
             }
-
-
         }
     }
 }
