@@ -29,14 +29,14 @@
 
                     using (writer)
                     {
-                        while (firstReader.EndOfStream || secondReader.EndOfStream)
+                        while (!firstReader.EndOfStream || !secondReader.EndOfStream)
                         {
                             if (!firstReader.EndOfStream)
                                 writer.WriteLine(firstReader.ReadLine());
-                            writer.Flush();
+                            
                             if (!secondReader.EndOfStream)
                                 writer.WriteLine(secondReader.ReadLine());
-                            writer.Flush();
+                            
                         }
                     }
                 }
