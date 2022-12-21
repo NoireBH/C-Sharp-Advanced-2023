@@ -28,6 +28,7 @@ namespace WordCount
                 foreach (var word in words)
                 {
                     output.Add(word.ToLower(), 0);
+                    
                 }
 
                 using (StreamReader readInput = new StreamReader(textFilePath))
