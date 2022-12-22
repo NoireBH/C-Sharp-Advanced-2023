@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 
 namespace _01._Sort_Even_Numbers
 {
@@ -7,15 +8,15 @@ namespace _01._Sort_Even_Numbers
     {
         static void Main(string[] args)
         {
-            string inputPath = Console.ReadLine();
-            string outputPath = Console.ReadLine();
-            CopyAllFiles(inputPath, outputPath);
+            int[] numbers = Console.ReadLine()
+                .Split(",")
+                .Select(int.Parse)
+                .OrderBy(n => n)
+                .ToArray();
+
+            Console.WriteLine(string.Join(", ", numbers.Where(n => n % 2 == 0)));
         }
 
-        public static void CopyAllFiles(string inputPath, string outputPath)
-        {
-
-            
-        }
+     
     }
 }
