@@ -7,17 +7,13 @@ namespace _02._Sum_Numbers
     {
         static void Main(string[] args)
         {
-            Predicate<string> isUpperLetter = letter =>
-            char.IsUpper(letter[0]);
-
-            string[] text = Console.ReadLine().Split()
-                .Where(word => isUpperLetter(word))
-                .ToArray();
-
-            foreach (var word in text)
-            {
-                Console.WriteLine(word);
-            }
+            Func<string, int> parser = n => int.Parse(n);
+            int[] numbers = Console.ReadLine()
+                 .Split(", ")
+                 .Select(parser)
+                 .ToArray();
+            Console.WriteLine(numbers.Length);
+            Console.WriteLine(numbers.Sum());
         }
     }
 }
