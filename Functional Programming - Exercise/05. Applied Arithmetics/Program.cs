@@ -46,15 +46,6 @@ namespace _05._Applied_Arithmetics
                     break;
                 }
             }
-
-            
-
-        }
-
-        public List<int> Operation(List<int> numbers, Func<List<int>, List<int>> operation)
-
-        {   
-            return operation(numbers);
         }
     }
 }

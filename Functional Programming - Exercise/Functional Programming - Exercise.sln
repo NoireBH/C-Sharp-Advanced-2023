@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Action Print", "01. Action Print\01. Action Print.csproj", "{3531C100-0C0D-4205-8257-BA8876253DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Action Print", "01. Action Print\01. Action Print.csproj", "{3531C100-0C0D-4205-8257-BA8876253DFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Knights of Honor", "02. Knights of Honor\02. Knights of Honor.csproj", "{C806094E-6900-4828-9B30-568A4E40C099}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Knights of Honor", "02. Knights of Honor\02. Knights of Honor.csproj", "{C806094E-6900-4828-9B30-568A4E40C099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Custom Min Function", "03. Custom Min Function\03. Custom Min Function.csproj", "{B43A8534-C1B2-4C37-901A-6AB546DC104E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Custom Min Function", "03. Custom Min Function\03. Custom Min Function.csproj", "{B43A8534-C1B2-4C37-901A-6AB546DC104E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Find Evens or Odds", "04. Find Evens or Odds\04. Find Evens or Odds.csproj", "{BFBA2360-F39D-4E24-863E-D5CBD97E8813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Find Evens or Odds", "04. Find Evens or Odds\04. Find Evens or Odds.csproj", "{BFBA2360-F39D-4E24-863E-D5CBD97E8813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Applied Arithmetics", "05. Applied Arithmetics\05. Applied Arithmetics.csproj", "{A57C8A76-069D-45C6-9EEF-45D98B524E59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Applied Arithmetics", "05. Applied Arithmetics\05. Applied Arithmetics.csproj", "{A57C8A76-069D-45C6-9EEF-45D98B524E59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Reverse And Exclude", "06. Reverse And Exclude\06. Reverse And Exclude.csproj", "{0D180595-9BA6-44F5-8675-42137206F2D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Reverse And Exclude", "06. Reverse And Exclude\06. Reverse And Exclude.csproj", "{0D180595-9BA6-44F5-8675-42137206F2D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Predicate For Names", "07. Predicate For Names\07. Predicate For Names.csproj", "{31097CE8-C92A-4DFF-8F06-2CB34D97D12B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08. List Of Predicates", "08. List Of Predicates\08. List Of Predicates.csproj", "{F101B58D-3683-499A-87C9-89B7FC845777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Predicate Party!", "09. Predicate Party!\09. Predicate Party!.csproj", "{13F1DAA1-3E0C-4D53-B75E-72659541EB9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{0D180595-9BA6-44F5-8675-42137206F2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D180595-9BA6-44F5-8675-42137206F2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D180595-9BA6-44F5-8675-42137206F2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31097CE8-C92A-4DFF-8F06-2CB34D97D12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31097CE8-C92A-4DFF-8F06-2CB34D97D12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31097CE8-C92A-4DFF-8F06-2CB34D97D12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31097CE8-C92A-4DFF-8F06-2CB34D97D12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F101B58D-3683-499A-87C9-89B7FC845777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F101B58D-3683-499A-87C9-89B7FC845777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F101B58D-3683-499A-87C9-89B7FC845777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F101B58D-3683-499A-87C9-89B7FC845777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F1DAA1-3E0C-4D53-B75E-72659541EB9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F1DAA1-3E0C-4D53-B75E-72659541EB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F1DAA1-3E0C-4D53-B75E-72659541EB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F1DAA1-3E0C-4D53-B75E-72659541EB9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
