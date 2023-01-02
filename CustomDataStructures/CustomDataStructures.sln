@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomList", "CustomList\Cu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStack", "CustomStack\CustomStack.csproj", "{9901DF44-9516-4603-AF9F-1AE3FF9FDA08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomQueue", "CustomQueue\CustomQueue.csproj", "{2C806CEC-15C4-4FB5-BDE9-457908179EF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9901DF44-9516-4603-AF9F-1AE3FF9FDA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9901DF44-9516-4603-AF9F-1AE3FF9FDA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9901DF44-9516-4603-AF9F-1AE3FF9FDA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C806CEC-15C4-4FB5-BDE9-457908179EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C806CEC-15C4-4FB5-BDE9-457908179EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C806CEC-15C4-4FB5-BDE9-457908179EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C806CEC-15C4-4FB5-BDE9-457908179EF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
