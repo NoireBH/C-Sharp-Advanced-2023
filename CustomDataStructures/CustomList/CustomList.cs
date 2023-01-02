@@ -122,9 +122,7 @@ namespace CustomList
                 action(currentIndex);
 
 
-            }
-            
-            
+            }           
         }
 
         private void Shrink()
