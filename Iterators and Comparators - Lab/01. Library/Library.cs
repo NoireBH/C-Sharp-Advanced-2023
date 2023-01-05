@@ -31,8 +31,9 @@ namespace IteratorsAndComparators
             private int currentIndex;
 
             public LibraryIterator(List<Book> books)
-            {
+            {   
                 this.books = books;
+                this.books.Sort();
                 currentIndex = -1;
             }
 
