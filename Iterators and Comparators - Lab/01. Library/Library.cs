@@ -33,7 +33,7 @@ namespace IteratorsAndComparators
             public LibraryIterator(List<Book> books)
             {   
                 this.books = books;
-                this.books.Sort();
+                this.books.Sort(new BookComparator());
                 currentIndex = -1;
             }
 
