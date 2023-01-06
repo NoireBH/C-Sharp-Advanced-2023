@@ -111,16 +111,16 @@ namespace CustomLinkedList
             return lastElement;
         }
 
-        public void ForEach()
+        public void ForEach(Action<T> action)
         {
             var currentNode = head;
 
             while (currentNode != null)
             {
-              T value = currentNode.Value;
+              action(currentNode.Value);
                 currentNode = currentNode.Next;
 
-                Console.WriteLine(value);
+               
             }
         }
 

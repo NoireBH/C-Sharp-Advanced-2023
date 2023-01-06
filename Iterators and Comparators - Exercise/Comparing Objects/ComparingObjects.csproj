@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Comparing_Objects</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Person.cs~RF1298b72.TMP" />
+  </ItemGroup>
+
+</Project>
