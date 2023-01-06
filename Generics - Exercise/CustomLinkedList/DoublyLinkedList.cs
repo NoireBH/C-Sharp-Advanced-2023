@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CustomLinkedList
 {
-    public class DoublyLinkedList<T>
+    public class DoublyLinkedList<T> : IEnumerable<T>
     {
         public class ListNode
         {
@@ -111,19 +112,6 @@ namespace CustomLinkedList
             return lastElement;
         }
 
-        public void ForEach(Action<T> action)
-        {
-            var currentNode = head;
-
-            while (currentNode != null)
-            {
-              action(currentNode.Value);
-                currentNode = currentNode.Next;
-
-               
-            }
-        }
-
         public T[] ToArray()
         {
             T[] array = new T[Count];
@@ -137,6 +125,22 @@ namespace CustomLinkedList
                 counter++;
             }
             return array;
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            var currentNode = head;
+
+            while (currentNode != null)
+            {
+                yield return currentNode.Value;
+                currentNode=currentNode.Next;
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }

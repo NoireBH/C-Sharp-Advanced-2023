@@ -12,6 +12,13 @@ namespace CustomLinkedList
             list.AddLast(3);
             Console.WriteLine(list.RemoveLast());
             Console.WriteLine(list.RemoveFirst());
+            list.AddLast(2);
+            list.AddLast(3);
+
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
