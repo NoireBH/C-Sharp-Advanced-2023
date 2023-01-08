@@ -8,7 +8,7 @@ namespace _03._Generating_01_Vectors
         {
             int numberOfVectors = int.Parse(Console.ReadLine());
             int[] array = new int[numberOfVectors];
-            PrintVectors(array,0);
+            PrintVectors(array, 0);
 
         }
 
@@ -26,11 +26,9 @@ namespace _03._Generating_01_Vectors
                 PrintVectors(vector, index + 1);
 
             }
-
-            
         }
     }
-    }
+}
 
-    
+
 
