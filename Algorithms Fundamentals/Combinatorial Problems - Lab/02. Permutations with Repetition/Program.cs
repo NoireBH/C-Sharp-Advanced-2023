@@ -6,13 +6,10 @@ namespace _02._Permutations_with_Repetition
 {
     internal class Program
     {
-        public static bool[] used;
         public static string[] elements;
-        public static string[] permutations;
         static void Main(string[] args)
         {
             elements = Console.ReadLine().Split(' ');
-            permutations = new string[elements.Length];
             Permute(0);
         }
 
@@ -21,30 +18,30 @@ namespace _02._Permutations_with_Repetition
 
             if (index >= elements.Length)
             {
-                Console.WriteLine(string.Join(" ", permutations));
+                Console.WriteLine(string.Join(" ", elements));
                 return;
             }
 
             Permute(index + 1);
-            var swapped = new HashSet<string> { permutations[index] };
-            for (int i = index + 1; i < permutations.Length; i++)
+            var swapped = new HashSet<string> { elements[index] };
+            for (int i = index + 1; i < elements.Length; i++)
             {
-                if (!swapped.Contains(permutations[i]))
+                if (!swapped.Contains(elements[i]))
                 {
                     Swap(index, i);
                     Permute(index + 1);
                     Swap(index, i);
-                    swapped.Add(permutations[i]);
+                    swapped.Add(elements[i]);
 
                 }
             }
         }
 
-        private static void Swap(int index, int i)
+        private static void Swap(int first, int second)
         {
-            int temp = index;
-            index = i;
-            i = temp;
+            var temp = elements[first];
+            elements[first] = elements[second];
+            elements[second] = temp;
         }
     }
 }
