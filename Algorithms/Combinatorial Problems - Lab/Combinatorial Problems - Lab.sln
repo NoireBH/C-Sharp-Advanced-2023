@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Variations with Repetit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Combinations without Repetition", "05. Combinations without Repetition\05. Combinations without Repetition.csproj", "{9C90ED9E-B08E-4FEF-AC72-B542448264C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Combinations with Repetition", "06. Combinations with Repetition\06. Combinations with Repetition.csproj", "{08B16C77-8FE7-486D-B5C6-BCB2143CD91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. N Choose K Count", "07. N Choose K Count\07. N Choose K Count.csproj", "{31F19A14-6307-43EA-8F59-142346FBBE98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{9C90ED9E-B08E-4FEF-AC72-B542448264C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C90ED9E-B08E-4FEF-AC72-B542448264C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C90ED9E-B08E-4FEF-AC72-B542448264C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B16C77-8FE7-486D-B5C6-BCB2143CD91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B16C77-8FE7-486D-B5C6-BCB2143CD91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B16C77-8FE7-486D-B5C6-BCB2143CD91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B16C77-8FE7-486D-B5C6-BCB2143CD91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F19A14-6307-43EA-8F59-142346FBBE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F19A14-6307-43EA-8F59-142346FBBE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F19A14-6307-43EA-8F59-142346FBBE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F19A14-6307-43EA-8F59-142346FBBE98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

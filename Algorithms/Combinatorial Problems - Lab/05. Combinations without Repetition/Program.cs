@@ -26,7 +26,7 @@ namespace _05._Combinations_without_Repetition
             for (int i = elementsStartingIndex; i < elements.Length; i++)
             {
                     combinations[index] = elements[i];
-                    GenerateCombinations(index + 1, i);
+                    GenerateCombinations(index + 1, i + 1);
                 
             }
 
