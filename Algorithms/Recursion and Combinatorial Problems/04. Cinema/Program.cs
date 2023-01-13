@@ -22,15 +22,15 @@ namespace _04._Cinema
 
             while (true)
             {
-                var line = Console.ReadLine();
+                string line = Console.ReadLine();
                 if (line == "generate")
                 {
                     break;
                 }
 
-                var parts = line.Split(" - ");
-                var name = parts[0];
-                var position = int.Parse(parts[1]) - 1;
+                string[] parts = line.Split(" - ");
+                string name = parts[0];
+                int position = int.Parse(parts[1]) - 1;
 
                 names.Remove(name);
                 seats[position] = name;
@@ -68,8 +68,8 @@ namespace _04._Cinema
                     continue;
                 }
 
-                seats[i] = names[namesIndex];
-                namesIndex += 1;
+                seats[i] = names[namesIndex++];
+                
             }
 
             Console.WriteLine(string.Join(" ", seats));

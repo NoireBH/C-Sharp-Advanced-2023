@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Nested Loops", "02. Nes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectedAreasInAMatr", "ConnectedAreasInAMatr\ConnectedAreasInAMatr.csproj", "{DD96182A-9002-4B71-A182-48A3B7258571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Cinema", "04. Cinema\04. Cinema.csproj", "{9E59B618-5974-4CCC-8399-E777521EFC60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Cinema", "04. Cinema\04. Cinema.csproj", "{9E59B618-5974-4CCC-8399-E777521EFC60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.SchoolTeams", "05.SchoolTeams\05.SchoolTeams.csproj", "{94EEBA65-2664-4818-8AFB-58F5E49B90AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Word Cruncher", "06. Word Cruncher\06. Word Cruncher.csproj", "{B02D4D36-F9FE-4712-A399-7ED37274F8C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{9E59B618-5974-4CCC-8399-E777521EFC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E59B618-5974-4CCC-8399-E777521EFC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E59B618-5974-4CCC-8399-E777521EFC60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94EEBA65-2664-4818-8AFB-58F5E49B90AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EEBA65-2664-4818-8AFB-58F5E49B90AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EEBA65-2664-4818-8AFB-58F5E49B90AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EEBA65-2664-4818-8AFB-58F5E49B90AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02D4D36-F9FE-4712-A399-7ED37274F8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02D4D36-F9FE-4712-A399-7ED37274F8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02D4D36-F9FE-4712-A399-7ED37274F8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02D4D36-F9FE-4712-A399-7ED37274F8C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
