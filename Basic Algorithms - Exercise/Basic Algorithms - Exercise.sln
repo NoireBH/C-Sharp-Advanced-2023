@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Recursive Factorial", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. SumofCoins", "03. Sum of Coins\03. SumofCoins.csproj", "{88694CDE-CD4A-4A55-8838-437E7F78F752}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Set Cover", "04. Set Cover\04. Set Cover.csproj", "{4C454199-7289-4F40-A1C7-EADAD121C49F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{88694CDE-CD4A-4A55-8838-437E7F78F752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88694CDE-CD4A-4A55-8838-437E7F78F752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88694CDE-CD4A-4A55-8838-437E7F78F752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C454199-7289-4F40-A1C7-EADAD121C49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C454199-7289-4F40-A1C7-EADAD121C49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C454199-7289-4F40-A1C7-EADAD121C49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C454199-7289-4F40-A1C7-EADAD121C49F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
