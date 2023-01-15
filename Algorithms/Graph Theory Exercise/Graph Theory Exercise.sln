@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Distance Between Vertices", "01. Distance Between Vertices\01. Distance Between Vertices.csproj", "{99B3095B-41BF-41A3-B169-44EA108ABD92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Areas in Matrix", "02. Areas in Matrix\02. Areas in Matrix.csproj", "{5E0179B1-0B9D-4F3D-A549-7AD82015CFF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Cycles in Graph", "03. Cycles in Graph\03. Cycles in Graph.csproj", "{A746625B-B030-48AC-A41A-2BD997151ED4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{99B3095B-41BF-41A3-B169-44EA108ABD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99B3095B-41BF-41A3-B169-44EA108ABD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99B3095B-41BF-41A3-B169-44EA108ABD92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0179B1-0B9D-4F3D-A549-7AD82015CFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0179B1-0B9D-4F3D-A549-7AD82015CFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0179B1-0B9D-4F3D-A549-7AD82015CFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0179B1-0B9D-4F3D-A549-7AD82015CFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A746625B-B030-48AC-A41A-2BD997151ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A746625B-B030-48AC-A41A-2BD997151ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A746625B-B030-48AC-A41A-2BD997151ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A746625B-B030-48AC-A41A-2BD997151ED4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
