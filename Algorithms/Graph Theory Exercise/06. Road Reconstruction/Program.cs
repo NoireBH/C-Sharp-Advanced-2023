@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Linq;
 
-namespace _5._Square_With_Maximum_Sum
+namespace _06._Road_Reconstruction
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+
             int[] rowAndCol = Console.ReadLine().Split(",")
                 .Select(int.Parse).ToArray();
 
@@ -22,7 +23,7 @@ namespace _5._Square_With_Maximum_Sum
 
                 for (int c = 0; c < matrix.GetLength(1); c++)
                 {
-                    matrix[r, c] = numbers[c];
+                    matrix[r,c] = numbers[c];
                 }
             }
 
@@ -34,8 +35,8 @@ namespace _5._Square_With_Maximum_Sum
             {
                 for (int c = 0; c < matrix.GetLength(1) - 1; c++)
                 {
-
-                    int currentSum = matrix[r, c] + matrix[r, c + 1]
+                    
+                    int currentSum = matrix[r, c] + matrix[r, c + 1] 
                         + matrix[r + 1, c] + matrix[r + 1, c + 1];
 
                     if (currentSum > maxSum)
@@ -47,9 +48,11 @@ namespace _5._Square_With_Maximum_Sum
                 }
             }
 
-            Console.WriteLine($"{matrix[maxRow, maxCol]} {matrix[maxRow, maxCol + 1]}");
+            Console.WriteLine($"{ matrix[maxRow,maxCol]} {matrix[maxRow,maxCol + 1]}");
             Console.WriteLine($"{matrix[maxRow + 1, maxCol]} {matrix[maxRow + 1, maxCol + 1]}");
             Console.WriteLine(maxSum);
+
+
         }
     }
 }
