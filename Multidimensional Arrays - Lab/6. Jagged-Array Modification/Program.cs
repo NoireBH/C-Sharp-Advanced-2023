@@ -47,9 +47,9 @@ namespace _6._Jagged_Array_Modification
                 }
             }
          
-            foreach (int[] row in matrix)
+            foreach (int[] rol in matrix)
             {
-                Console.WriteLine(string.Join(" ", row));
+                Console.WriteLine(string.Join(" ", rol));
             }
 
         }
