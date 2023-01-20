@@ -9,16 +9,8 @@ namespace _7._Knight_Game
         {
             int rowAndCol = int.Parse(Console.ReadLine());
             char[,] board = new char[rowAndCol, rowAndCol];
+            FillMatrix(rowAndCol, board);
 
-            for (int row = 0; row < board.GetLength(0); row++)
-            {
-               string knightsAndZeroes = Console.ReadLine();
-
-                for (int col = 0; col < board.GetLength(1); col++)
-                {
-                    board[row, col] = knightsAndZeroes[col];
-                }
-            }
             int removedKnights = 0;
 
             while (true)
@@ -110,9 +102,18 @@ namespace _7._Knight_Game
                 && col >=0 && col < board.GetLength(1);
         }
 
-        private static void FillMatrix(int rowAndCol, char[,] matrix, string knightsAndZeroes)
+        private static void FillMatrix(int rowAndCol, char[,] board)
         {
-            
+
+            for (int row = 0; row < board.GetLength(0); row++)
+            {
+                string knightsAndZeroes = Console.ReadLine();
+
+                for (int col = 0; col < board.GetLength(1); col++)
+                {
+                    board[row, col] = knightsAndZeroes[col];
+                }
+            }
         }
     }
 }
