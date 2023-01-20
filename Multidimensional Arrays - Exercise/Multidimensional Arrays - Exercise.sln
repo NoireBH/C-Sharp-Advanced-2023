@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Snake Moves", "5. Snake 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Jagged Array Manipulator", "6. Jagged Array Manipulator\6. Jagged Array Manipulator.csproj", "{75A31785-5036-4A3A-AB3E-A8FE7C50091F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Knight Game", "7. Knight Game\7. Knight Game.csproj", "{1857A240-7F10-4A0C-888C-5C207CB87D22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Knight Game", "7. Knight Game\7. Knight Game.csproj", "{1857A240-7F10-4A0C-888C-5C207CB87D22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Bombs", "8. Bombs\8. Bombs.csproj", "{FBA365F3-44D7-4574-9811-5FCAB1B595D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{1857A240-7F10-4A0C-888C-5C207CB87D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1857A240-7F10-4A0C-888C-5C207CB87D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1857A240-7F10-4A0C-888C-5C207CB87D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA365F3-44D7-4574-9811-5FCAB1B595D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA365F3-44D7-4574-9811-5FCAB1B595D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA365F3-44D7-4574-9811-5FCAB1B595D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA365F3-44D7-4574-9811-5FCAB1B595D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
