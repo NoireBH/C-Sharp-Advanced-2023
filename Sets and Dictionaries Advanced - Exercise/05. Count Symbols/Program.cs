@@ -14,13 +14,11 @@ namespace _05._Count_Symbols
             {
                 if (!symbolCount.ContainsKey(character))
                 {
-                    symbolCount[character] = 1;
+                    symbolCount[character] = 0;
                 }
-
-                else
-                {
-                    symbolCount[character]++;
-                }
+                   
+                symbolCount[character]++;
+                
             }
 
             foreach (var (symbol,count) in symbolCount)
