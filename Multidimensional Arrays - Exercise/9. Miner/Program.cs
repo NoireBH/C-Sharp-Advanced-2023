@@ -18,32 +18,81 @@ namespace _9._Miner
             FindStartOfMiner(sizeOfMatrix, matrix, ref minerRow, ref minerCol, ref coals);
 
             int commandIndex = 0;
-                
+
 
             while (commandIndex < moveCommands.Length &&
                coals > 0 &&
-               matrix[minerRow,minerCol] != 'e')
+               matrix[minerRow, minerCol] != 'e')
             {
-                if (moveCommands[commandIndex] == "up")
+                if (Validate(matrix, minerRow, minerCol, moveCommands, commandIndex))
                 {
-                    commandIndex++;
+                    if (moveCommands[commandIndex] == "up")
+                    {     
+                        if (matrix[minerRow - 1, minerCol] == 'c')
+                        {
 
-                    if (matrix[minerRow - 1, minerCol] < 0 || matrix[minerRow - 1, minerCol] >= matrix.GetLength(1))
-                    {   
-                        continue;
+                            matrix[minerRow - 1, minerCol] = '*';
+                            coals--;
+                            minerRow--;
+                        }
+
+                        else
+                        {
+                            minerRow--;
+                        }
+
                     }
 
-                    if (matrix[minerRow - 1, minerCol] == 'c')
-                    {   
+                    else if (moveCommands[commandIndex] == "down")
+                    {
+                        if (matrix[minerRow + 1, minerCol] == 'c')
+                        {
 
-                        matrix[minerRow - 1, minerCol] = '*';
-                        coals--;
-                        minerCol++;
-                        minerRow--;
+                            matrix[minerRow + 1, minerCol] = '*';
+                            coals--;
+                            minerRow++;
+                        }
 
-                        
+                        else
+                        {
+                            minerRow++;
+                        }
+                    }
+
+                    else if (moveCommands[commandIndex] == "left")
+                    {
+                        if (matrix[minerRow, minerCol - 1] == 'c')
+                        {
+
+                            matrix[minerRow, minerCol - 1] = '*';
+                            coals--;
+                            minerCol--;
+                        }
+
+                        else
+                        {
+                            minerCol--;
+                        }
+                    }
+
+                    else if (moveCommands[commandIndex] == "right")
+                    {
+                        if (matrix[minerRow, minerCol + 1] == 'c')
+                        {
+
+                            matrix[minerRow, minerCol + 1] = '*';
+                            coals--;
+                            minerCol++;
+                        }
+
+                        else
+                        {
+                            minerCol++;
+                        }
                     }
                 }
+
+                commandIndex++;
             }
 
             if (coals <= 0)
@@ -52,11 +101,57 @@ namespace _9._Miner
                 return;
             }
 
+            else if (coals > 0 && matrix[minerRow,minerCol] != 'e')
+            {
+                Console.WriteLine($"{coals} coals left. ({minerRow}, {minerCol})");
+            }
+
+            else if (matrix[minerRow,minerCol] == 'e')
+            {
+                Console.WriteLine($"Game over! ({minerRow}, {minerCol})");
+            }
+
+        }
+
+        private static bool Validate(char[,] matrix, int minerRow, int minerCol, string[] directions, int indexOfDirection)
+        {
+
+            if (directions[indexOfDirection] == "up")
+            {
+                if (minerRow - 1 < 0)
+                {
+                    return false;
+                }
+            }
+            else if (directions[indexOfDirection] == "down")
+            {
+                if (minerRow + 1 >= matrix.GetLength(0))
+                {
+                    return false;
+                }
+            }
+            else if (directions[indexOfDirection] == "left")
+            {
+                if (minerCol - 1 < 0)
+                {
+                    return false;
+                }
+            }
+            else if (directions[indexOfDirection] == "right")
+            {
+                if (minerCol + 1 >= matrix.GetLength(1))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+
         }
 
         private static void FindStartOfMiner(int sizeOfMatrix, char[,] matrix, ref int minerRowStart, ref int minerColStart, ref int coals)
         {
-            
+
             for (int r = 0; r < sizeOfMatrix; r++)
             {
                 for (int c = 0; c < sizeOfMatrix; c++)
@@ -67,7 +162,7 @@ namespace _9._Miner
                         minerColStart = c;
                     }
 
-                    else if (matrix[r,c] == 'c')
+                    else if (matrix[r, c] == 'c')
                     {
                         coals++;
                     }

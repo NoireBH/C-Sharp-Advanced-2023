@@ -8,7 +8,7 @@ namespace _07._The_V_Logger
     {
         static void Main(string[] args)
         {
-            Dictionary<string, Dictionary<string, HashSet<string>>> VLoggerDatabase = new Dictionary<string, Dictionary<string, HashSet<string>>>();
+            var VLoggerDatabase = new Dictionary<string, Dictionary<string, HashSet<string>>>();
 
             string input;
             while ((input = Console.ReadLine())!= "Statistics")
