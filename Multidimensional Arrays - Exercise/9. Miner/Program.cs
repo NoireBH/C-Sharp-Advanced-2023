@@ -24,7 +24,7 @@ namespace _9._Miner
                coals > 0 &&
                matrix[minerRow, minerCol] != 'e')
             {
-                if (Validate(matrix, minerRow, minerCol, moveCommands, commandIndex))
+                if (IsInsideOfArray(matrix, minerRow, minerCol, moveCommands, commandIndex))
                 {
                     if (moveCommands[commandIndex] == "up")
                     {     
@@ -113,7 +113,7 @@ namespace _9._Miner
 
         }
 
-        private static bool Validate(char[,] matrix, int minerRow, int minerCol, string[] directions, int indexOfDirection)
+        private static bool IsInsideOfArray(char[,] matrix, int minerRow, int minerCol, string[] directions, int indexOfDirection)
         {
 
             if (directions[indexOfDirection] == "up")
