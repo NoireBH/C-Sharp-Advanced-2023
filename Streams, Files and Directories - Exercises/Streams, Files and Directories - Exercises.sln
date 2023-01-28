@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Even Lines", "01. Even Lines\01. Even Lines.csproj", "{E0C444B0-A6DA-46DF-BC49-0D42ED77EF9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Even Lines", "01. Even Lines\01. Even Lines.csproj", "{E0C444B0-A6DA-46DF-BC49-0D42ED77EF9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Line Numbers", "02. Line Numbers\02. Line Numbers.csproj", "{D69D81BE-D603-4A42-93D2-3DF2FB733BA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Line Numbers", "02. Line Numbers\02. Line Numbers.csproj", "{D69D81BE-D603-4A42-93D2-3DF2FB733BA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Copy Binary File", "03. Copy Binary File\03. Copy Binary File.csproj", "{DB8E465B-A63B-48DA-877B-F8EE2CA70129}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Copy Binary File", "03. Copy Binary File\03. Copy Binary File.csproj", "{DB8E465B-A63B-48DA-877B-F8EE2CA70129}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Directory Traversal", "04. Directory Traversal\04. Directory Traversal.csproj", "{D47CF948-41B4-4771-95E4-29B38BB3EE6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Directory Traversal", "04. Directory Traversal\04. Directory Traversal.csproj", "{D47CF948-41B4-4771-95E4-29B38BB3EE6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Copy Directory", "05. Copy Directory\05. Copy Directory.csproj", "{9A20BA35-9D7D-48E5-AEFF-7CA82ADB9C90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Copy Directory", "05. Copy Directory\05. Copy Directory.csproj", "{9A20BA35-9D7D-48E5-AEFF-7CA82ADB9C90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipAndExtract", "ZipAndExtract\ZipAndExtract.csproj", "{6406152A-17D3-45D1-8E5B-AECA1F3B1665}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9A20BA35-9D7D-48E5-AEFF-7CA82ADB9C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A20BA35-9D7D-48E5-AEFF-7CA82ADB9C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A20BA35-9D7D-48E5-AEFF-7CA82ADB9C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6406152A-17D3-45D1-8E5B-AECA1F3B1665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6406152A-17D3-45D1-8E5B-AECA1F3B1665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6406152A-17D3-45D1-8E5B-AECA1F3B1665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6406152A-17D3-45D1-8E5B-AECA1F3B1665}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
